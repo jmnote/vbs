@@ -1,3 +1,4 @@
+' Usage: > cscript//nologo mynetstat.vbs
 set fso = createobject("scripting.filesystemobject") 
 set sh  = createobject("wscript.shell") 
 set oExec = sh.exec ("tasklist") 
