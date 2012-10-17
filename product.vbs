@@ -1,4 +1,4 @@
-' Usage: > cscript//nologo products.vbs
+' Usage: > cscript//nologo product.vbs
 set sh  = createobject("wscript.shell") 
 set oExec = sh.exec ("wmic product") 
 wscript.echo "Product"
