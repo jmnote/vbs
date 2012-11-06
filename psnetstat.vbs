@@ -1,4 +1,5 @@
-' Usage: > cscript//nologo mynetstat.vbs
+' http://jmnote.com/wiki/Psnetstat.vbs
+' Usage: > cscript//nologo psnetstat.vbs
 set fso = createobject("scripting.filesystemobject") 
 set sh  = createobject("wscript.shell") 
 set oExec = sh.exec ("tasklist") 
