@@ -1,4 +1,4 @@
-' http://jmnote.com/wiki/Product.vbs
+' http://zetawiki.com/wiki/Product.vbs
 ' Usage: > cscript//nologo product.vbs
 set sh  = createobject("wscript.shell") 
 set oExec = sh.exec ("wmic product") 
